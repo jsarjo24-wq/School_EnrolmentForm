@@ -1,0 +1,31 @@
+/*----Reset & base---*/
+*,*::before, *::after{box-sizing: border-box;}
+body{
+    margin: 0;
+    padding: 24px 16px 64px;
+    background: #F0F4FA;
+    color: #1C2333;
+    font-family: 'Segoe UI', Arial, Helvetica,  sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.page-header{
+    max-width: 720px;
+    margin: 0 auto 28px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-mark{
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+.page-header p{
+    margin: 0;
+    font-size: 0.82rem;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
